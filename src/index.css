@@ -2243,32 +2243,49 @@ a.footer-info-value:hover {
   .section { padding: 80px 32px; }
   .events-grid { grid-template-columns: 1fr; }
   .about { grid-template-columns: 1fr; gap: 32px; }
-  .about-vertical-text { writing-mode: horizontal-tb; font-size: 5rem; }
+  .about-vertical-text { writing-mode: horizontal-tb; font-size: 4.5rem; }
   .winners-grid { grid-template-columns: 1fr; }
   .footer-content { grid-template-columns: 1fr; gap: 48px; }
   .legacy-stats { grid-template-columns: repeat(2, 1fr); }
 }
 
 @media (max-width: 768px) {
-  .section { padding: 64px 20px; }
-  .navbar { padding: 0 20px; }
+  .section { padding: 56px 16px; }
+  .navbar { padding: 0 16px; }
   .nav-links { display: none; }
   .menu-toggle { display: flex; }
   .mobile-menu { display: flex; }
-  .stats-grid { grid-template-columns: repeat(2, 1fr); }
-  .countdown { gap: 8px; flex-wrap: wrap; justify-content: center; }
-  .countdown-value { width: 44px; height: 44px; font-size: 1.6rem; }
+  .stats-grid { grid-template-columns: repeat(2, 1fr); gap: 16px; }
+  .hero-title { font-size: clamp(2.5rem, 11vw, 7rem); letter-spacing: 4px; }
+  .hero-subtitle { letter-spacing: 3px; font-size: 0.75rem; }
+  .hero-org { font-size: 0.7rem; letter-spacing: 1.5px; }
+  .countdown { gap: 6px; flex-wrap: wrap; justify-content: center; }
+  .countdown-value { width: 44px; height: 44px; font-size: 1.5rem; }
   .gallery-grid { columns: 2; }
   .footer-bottom { flex-direction: column; gap: 12px; text-align: center; }
   .student-grid { grid-template-columns: repeat(2, 1fr); }
   .hero-buttons { flex-direction: column; align-items: stretch; width: 100%; max-width: 320px; }
-  .hero-buttons button { width: 100%; text-align: center; }
+  .hero-buttons button { width: 100%; text-align: center; min-height: 48px; display: flex; align-items: center; justify-content: center; }
+
+  /* Mobile Filter Pills Swipe Row */
+  .filter-pills {
+    display: flex;
+    overflow-x: auto;
+    white-space: nowrap;
+    -webkit-overflow-scrolling: touch;
+    padding-bottom: 6px;
+    margin-bottom: 24px;
+    justify-content: flex-start;
+    scrollbar-width: none;
+  }
+  .filter-pills::-webkit-scrollbar { display: none; }
+  .filter-pill { flex-shrink: 0; min-height: 40px; padding: 8px 16px; font-size: 0.75rem; }
 
   /* Mobile Admin Panel Enhancements */
-  .admin-wrap { padding: 16px 12px; }
-  .admin-card { padding: 18px 14px; border-radius: 4px; }
+  .admin-wrap { padding: 16px 10px; }
+  .admin-card { padding: 16px 12px; border-radius: 4px; }
   .admin-header { flex-direction: column; align-items: flex-start; gap: 12px; }
-  .admin-header > div { flex-wrap: wrap; width: 100%; }
+  .admin-header > div { flex-wrap: wrap; width: 100%; gap: 8px; }
   
   .admin-tabs, .participant-tabs {
     display: flex;
@@ -2284,28 +2301,49 @@ a.footer-info-value:hover {
   }
   .admin-tabs .participant-tab, .participant-tab {
     flex-shrink: 0;
-    padding: 10px 18px;
-    font-size: 0.7rem;
+    padding: 12px 18px;
+    font-size: 0.75rem;
+    min-height: 44px;
+    display: inline-flex;
+    align-items: center;
   }
 
   .stat-cards {
     grid-template-columns: repeat(2, 1fr);
+    gap: 8px;
   }
 
   .checkin-hit {
     flex-direction: column;
     align-items: flex-start;
     gap: 12px;
+    padding: 14px;
   }
   .checkin-hit button {
     width: 100%;
-    min-height: 42px;
+    min-height: 44px;
+  }
+
+  /* Prevent iOS zoom on inputs (16px base) */
+  .admin-input, select.admin-input, .search-input, .form-input {
+    min-height: 46px;
+    font-size: 16px !important;
   }
 
   .modal {
-    padding: 24px 18px;
-    width: 95%;
-    max-height: 90vh;
+    padding: 24px 16px;
+    width: 96%;
+    max-height: 92vh;
+    border-radius: 4px;
+  }
+  .modal-close {
+    width: 44px;
+    height: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 12px;
+    right: 12px;
   }
 
   .leaderboard-table, .admin-table {
@@ -2314,22 +2352,20 @@ a.footer-info-value:hover {
     white-space: nowrap;
     -webkit-overflow-scrolling: touch;
   }
-
-  .admin-input, select.admin-input {
-    min-height: 44px;
-    font-size: 0.9rem;
-  }
 }
 
 @media (max-width: 480px) {
   .gallery-grid { columns: 1; }
-  .stats-grid { grid-template-columns: 1fr; }
-  .legacy-stats { grid-template-columns: 1fr; }
+  .stats-grid { grid-template-columns: 1fr; gap: 16px; }
+  .legacy-stats { grid-template-columns: 1fr; gap: 16px; }
   .form-checkbox-group { grid-template-columns: 1fr; }
   .student-grid { grid-template-columns: 1fr; }
   .stat-cards { grid-template-columns: 1fr; }
-  .event-card { padding: 28px 20px; }
+  .event-card { padding: 24px 16px; }
+  .events-title { font-size: clamp(2.8rem, 14vw, 5rem); letter-spacing: 4px; }
+  .legacy-title { font-size: clamp(2.8rem, 14vw, 5rem); letter-spacing: 4px; }
 }
+
 
 
 /* --- Math Watermark Elements --- */
