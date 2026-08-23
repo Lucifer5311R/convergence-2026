@@ -11,6 +11,7 @@
     "audit": "node scripts/audit-data.mjs",
     "verify-lists": "node scripts/verify-event-lists.mjs",
     "start": "node scripts/admin-server.mjs",
+    "tunnel": "npx localtunnel --port 3001",
     "preview": "vite preview"
   },
   "dependencies": {
