@@ -485,6 +485,27 @@ function buildEvents() {
 function main() {
   fs.mkdirSync(OUT, { recursive: true });
 
+  // ------------------------------------------------------------
+  // CI/Vercel safety: raw registration files contain personal data
+  // and are intentionally NOT in git. When they're absent, keep
+  // the already-committed generated JSONs untouched.
+  // ------------------------------------------------------------
+  const xlsxName = 'Convergence 2026 Registration Form (Responses).xlsx';
+  const csvName = 'Participants - Sheet1.csv';
+  const hasRaw = fs.existsSync(path.join(FILES, xlsxName)) && fs.existsSync(path.join(FILES, csvName));
+  if (!hasRaw) {
+    console.log('ℹ Raw registration files not present (private, gitignored) — using committed generated data.');
+
+    // Ensure events.json exists on fresh clones (derived from tracked source)
+    const eventsPath = path.join(OUT, 'events.json');
+    if (!fs.existsSync(eventsPath)) {
+      fs.mkdirSync(OUT, { recursive: true });
+      fs.writeFileSync(eventsPath, JSON.stringify(buildEvents(), null, 2));
+      console.log('✓ wrote events.json from tracked source');
+    }
+    return;
+  }
+
   // ---- events.json ----
   const events = buildEvents();
   fs.writeFileSync(path.join(OUT, 'events.json'), JSON.stringify(events, null, 2));
