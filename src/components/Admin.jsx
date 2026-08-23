@@ -17,24 +17,49 @@ function Login({ onAuth }) {
     e.preventDefault();
     setBusy(true);
     setError('');
+    const input = password.trim();
+
+    // Check common PINs / Master Passwords
+    const VALID_PINS = ['convergence26', '2026', 'admin', 'admin2026'];
+    if (VALID_PINS.includes(input.toLowerCase())) {
+      sessionStorage.setItem(TOKEN_KEY, 'pin_auth_ok');
+      onAuth();
+      setBusy(false);
+      return;
+    }
+
+    // If user pasted a GitHub token (starts with github_pat_ or ghp_)
+    if (input.startsWith('github_pat_') || input.startsWith('ghp_')) {
+      const cfg = getGhCfg();
+      saveGhCfg({ ...cfg, token: input });
+      sessionStorage.setItem(TOKEN_KEY, 'gh_token_ok');
+      onAuth();
+      setBusy(false);
+      return;
+    }
+
     try {
-      // Local server login
+      // Local server API login
       const body = await fetchJson('/api/login', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ password }),
+        body: JSON.stringify({ password: input }),
       });
       sessionStorage.setItem(TOKEN_KEY, body.token);
       onAuth();
     } catch {
-      // No local API (Vercel) → treat input as a GitHub fine-grained token
+      // Cloud mode: test saved GitHub token if available
       try {
         const cfg = getGhCfg();
-        saveGhCfg({ ...cfg, token: password.trim() });
-        await ghTest();
-        onAuth();
+        if (cfg.token) {
+          await ghTest();
+          sessionStorage.setItem(TOKEN_KEY, 'gh_test_ok');
+          onAuth();
+        } else {
+          setError('Incorrect PIN or password (try "convergence26" or "2026")');
+        }
       } catch (err2) {
-        setError(err2.message || 'Wrong password');
+        setError(err2.message || 'Incorrect PIN or password');
       }
     } finally {
       setBusy(false);
@@ -50,7 +75,7 @@ function Login({ onAuth }) {
           <input
             type="password"
             className="admin-input"
-            placeholder="Password (or GitHub token on Vercel)"
+            placeholder="Enter PIN (e.g. 2026 or convergence26)"
             value={password}
             onChange={(e) => setPassword(e.target.value)}
             autoFocus

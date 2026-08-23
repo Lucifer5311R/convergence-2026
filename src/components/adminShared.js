@@ -37,13 +37,25 @@ export async function getApiMode() {
 // ------------------------------------------------------------
 const GH_KEY = 'cv_gh_sync';
 
+const DEFAULT_GH_CFG = {
+  owner: 'Lucifer5311R',
+  repo: 'convergence-2026',
+  branch: 'main',
+  token: '',
+};
+
 export function getGhCfg() {
-  try { return JSON.parse(localStorage.getItem(GH_KEY)) || {}; }
-  catch { return {}; }
+  try {
+    const saved = JSON.parse(localStorage.getItem(GH_KEY)) || {};
+    return { ...DEFAULT_GH_CFG, ...saved };
+  } catch {
+    return DEFAULT_GH_CFG;
+  }
 }
 
 export function saveGhCfg(cfg) {
-  localStorage.setItem(GH_KEY, JSON.stringify(cfg));
+  const current = getGhCfg();
+  localStorage.setItem(GH_KEY, JSON.stringify({ ...current, ...cfg }));
 }
 
 function ghHeaders(cfg) {
