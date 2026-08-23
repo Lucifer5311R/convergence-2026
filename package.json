@@ -11,7 +11,8 @@
     "audit": "node scripts/audit-data.mjs",
     "verify-lists": "node scripts/verify-event-lists.mjs",
     "start": "node scripts/admin-server.mjs",
-    "tunnel": "ssh -o StrictHostKeyChecking=no -R 80:localhost:3001 nokey@localhost.run",
+    "tunnel": "npx localtunnel --port 3001",
+    "tunnel-ssh": "ssh -o StrictHostKeyChecking=no -R 80:localhost:3001 nokey@localhost.run",
     "preview": "vite preview"
   },
   "dependencies": {
