@@ -2256,12 +2256,69 @@ a.footer-info-value:hover {
   .menu-toggle { display: flex; }
   .mobile-menu { display: flex; }
   .stats-grid { grid-template-columns: repeat(2, 1fr); }
-  .countdown { gap: 12px; }
-  .countdown-value { width: 48px; height: 48px; font-size: 2rem; }
+  .countdown { gap: 8px; flex-wrap: wrap; justify-content: center; }
+  .countdown-value { width: 44px; height: 44px; font-size: 1.6rem; }
   .gallery-grid { columns: 2; }
   .footer-bottom { flex-direction: column; gap: 12px; text-align: center; }
   .student-grid { grid-template-columns: repeat(2, 1fr); }
-  .hero-buttons { flex-direction: column; align-items: center; }
+  .hero-buttons { flex-direction: column; align-items: stretch; width: 100%; max-width: 320px; }
+  .hero-buttons button { width: 100%; text-align: center; }
+
+  /* Mobile Admin Panel Enhancements */
+  .admin-wrap { padding: 16px 12px; }
+  .admin-card { padding: 18px 14px; border-radius: 4px; }
+  .admin-header { flex-direction: column; align-items: flex-start; gap: 12px; }
+  .admin-header > div { flex-wrap: wrap; width: 100%; }
+  
+  .admin-tabs, .participant-tabs {
+    display: flex;
+    overflow-x: auto;
+    white-space: nowrap;
+    -webkit-overflow-scrolling: touch;
+    padding-bottom: 6px;
+    margin-bottom: 20px;
+    scrollbar-width: none;
+  }
+  .admin-tabs::-webkit-scrollbar, .participant-tabs::-webkit-scrollbar {
+    display: none;
+  }
+  .admin-tabs .participant-tab, .participant-tab {
+    flex-shrink: 0;
+    padding: 10px 18px;
+    font-size: 0.7rem;
+  }
+
+  .stat-cards {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .checkin-hit {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+  }
+  .checkin-hit button {
+    width: 100%;
+    min-height: 42px;
+  }
+
+  .modal {
+    padding: 24px 18px;
+    width: 95%;
+    max-height: 90vh;
+  }
+
+  .leaderboard-table, .admin-table {
+    display: block;
+    overflow-x: auto;
+    white-space: nowrap;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .admin-input, select.admin-input {
+    min-height: 44px;
+    font-size: 0.9rem;
+  }
 }
 
 @media (max-width: 480px) {
@@ -2270,7 +2327,10 @@ a.footer-info-value:hover {
   .legacy-stats { grid-template-columns: 1fr; }
   .form-checkbox-group { grid-template-columns: 1fr; }
   .student-grid { grid-template-columns: 1fr; }
+  .stat-cards { grid-template-columns: 1fr; }
+  .event-card { padding: 28px 20px; }
 }
+
 
 /* --- Math Watermark Elements --- */
 .math-watermark {
