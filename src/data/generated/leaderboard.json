@@ -1,0 +1,76 @@
+{
+  "generatedAt": "2026-08-23T17:24:20.686Z",
+  "hasResults": false,
+  "pointsSystem": [
+    10,
+    7,
+    5,
+    3
+  ],
+  "colleges": [
+    {
+      "name": "Alliance University",
+      "points": 0,
+      "wins": 0,
+      "teams": 136,
+      "participants": 245
+    },
+    {
+      "name": "Christ University (Yeshwanthpur Campus)",
+      "points": 0,
+      "wins": 0,
+      "teams": 37,
+      "participants": 84
+    },
+    {
+      "name": "Kristu Jayanti (Deemed to be) University",
+      "points": 0,
+      "wins": 0,
+      "teams": 16,
+      "participants": 38
+    },
+    {
+      "name": "Christ University",
+      "points": 0,
+      "wins": 0,
+      "teams": 10,
+      "participants": 26
+    },
+    {
+      "name": "Jyoti Nivas College (Autonomous)",
+      "points": 0,
+      "wins": 0,
+      "teams": 12,
+      "participants": 26
+    },
+    {
+      "name": "Christ University (BYC)",
+      "points": 0,
+      "wins": 0,
+      "teams": 3,
+      "participants": 8
+    },
+    {
+      "name": "St. Claret College",
+      "points": 0,
+      "wins": 0,
+      "teams": 2,
+      "participants": 6
+    },
+    {
+      "name": "M S Ramaiah College of Arts, Science and Commerce",
+      "points": 0,
+      "wins": 0,
+      "teams": 2,
+      "participants": 4
+    },
+    {
+      "name": "GFGC College Hoskote",
+      "points": 0,
+      "wins": 0,
+      "teams": 1,
+      "participants": 2
+    }
+  ],
+  "events": {}
+}

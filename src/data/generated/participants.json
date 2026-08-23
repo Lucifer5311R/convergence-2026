@@ -1,0 +1,2269 @@
+{
+  "generatedAt": "2026-08-23T17:24:20.686Z",
+  "totalRegistered": 291,
+  "totalTeams": 220,
+  "colleges": [
+    {
+      "name": "Alliance University",
+      "participants": 245,
+      "teams": 136,
+      "eventsEntered": 8
+    },
+    {
+      "name": "Christ University (Yeshwanthpur Campus)",
+      "participants": 84,
+      "teams": 37,
+      "eventsEntered": 7
+    },
+    {
+      "name": "Kristu Jayanti (Deemed to be) University",
+      "participants": 38,
+      "teams": 16,
+      "eventsEntered": 7
+    },
+    {
+      "name": "Christ University",
+      "participants": 26,
+      "teams": 10,
+      "eventsEntered": 5
+    },
+    {
+      "name": "Jyoti Nivas College (Autonomous)",
+      "participants": 26,
+      "teams": 12,
+      "eventsEntered": 4
+    },
+    {
+      "name": "Christ University (BYC)",
+      "participants": 8,
+      "teams": 3,
+      "eventsEntered": 3
+    },
+    {
+      "name": "St. Claret College",
+      "participants": 6,
+      "teams": 2,
+      "eventsEntered": 2
+    },
+    {
+      "name": "M S Ramaiah College of Arts, Science and Commerce",
+      "participants": 4,
+      "teams": 2,
+      "eventsEntered": 2
+    },
+    {
+      "name": "GFGC College Hoskote",
+      "participants": 2,
+      "teams": 1,
+      "eventsEntered": 1
+    }
+  ],
+  "events": {
+    "Project Infinity": [
+      {
+        "name": "Abdul Azeez Wajid",
+        "key": "abdul azeez wajid",
+        "college": "Alliance University"
+      },
+      {
+        "name": "Abhedeya Garg",
+        "key": "abhedeya garg",
+        "college": "Christ University"
+      },
+      {
+        "name": "Abhiyan M K",
+        "key": "abhiyan m k",
+        "college": "Alliance University"
+      },
+      {
+        "name": "Adhil Mohammed M",
+        "key": "adhil mohammed m",
+        "college": "Alliance University"
+      },
+      {
+        "name": "Adil Bin Qhizar Al Yafai",
+        "key": "adil bin qhizar al yafai",
+        "college": "Alliance University"
+      },
+      {
+        "name": "Aditao manna",
+        "key": "aditao manna",
+        "college": "Kristu Jayanti (Deemed to be) University"
+      },
+      {
+        "name": "Aditao Manna",
+        "key": "aditao manna",
+        "college": "Kristu Jayanti (Deemed to be) University"
+      },
+      {
+        "name": "Advik giresh",
+        "key": "advik giresh",
+        "college": "Kristu Jayanti (Deemed to be) University"
+      },
+      {
+        "name": "Advik Giresh",
+        "key": "advik giresh",
+        "college": "Kristu Jayanti (Deemed to be) University"
+      },
+      {
+        "name": "Amogh kumar Tulo",
+        "key": "amogh kumar tulo",
+        "college": "Alliance University"
+      },
+      {
+        "name": "Anavadya Raj",
+        "key": "anavadya raj",
+        "college": "Christ University (Yeshwanthpur Campus)"
+      },
+      {
+        "name": "Anavadya Raj",
+        "key": "anavadya raj",
+        "college": "Christ University"
+      },
+      {
+        "name": "anwita basu",
+        "key": "anwita basu",
+        "college": "Alliance University"
+      },
+      {
+        "name": "Anwita Basu",
+        "key": "anwita basu",
+        "college": "Alliance University"
+      },
+      {
+        "name": "Asapu Harshith",
+        "key": "asapu harshith",
+        "college": "Alliance University"
+      },
+      {
+        "name": "B Prakasika",
+        "key": "b prakasika",
+        "college": "Alliance University"
+      },
+      {
+        "name": "B PRAKASIKA",
+        "key": "b prakasika",
+        "college": "Alliance University"
+      },
+      {
+        "name": "Bhavani J",
+        "key": "bhavani j",
+        "college": "Kristu Jayanti (Deemed to be) University"
+      },
+      {
+        "name": "BHAVANI J",
+        "key": "bhavani j",
+        "college": "Kristu Jayanti (Deemed to be) University"
+      },
+      {
+        "name": "Bhavika Jain",
+        "key": "bhavika jain",
+        "college": "Christ University (Yeshwanthpur Campus)"
+      },
+      {
+        "name": "Chethana M",
+        "key": "chethana m",
+        "college": "Alliance University"
+      },
+      {
+        "name": "Devalipi",
+        "key": "devalipi",
+        "college": "Alliance University"
+      },
+      {
+        "name": "Devalipi Dekaphukan",
+        "key": "devalipi dekaphukan",
+        "college": "Alliance University"
+      },
+      {
+        "name": "Dhruvi Ganeriwal",
+        "key": "dhruvi ganeriwal",
+        "college": "Christ University (Yeshwanthpur Campus)"
+      },
+      {
+        "name": "Ekantha Pandit",
+        "key": "ekantha pandit",
+        "college": "Alliance University"
+      },
+      {
+        "name": "EKANTHA PANDIT",
+        "key": "ekantha pandit",
+        "college": "Alliance University"
+      },
+      {
+        "name": "Gargi Panda",
+        "key": "gargi panda",
+        "college": "Christ University (Yeshwanthpur Campus)"
+      },
+      {
+        "name": "Guddeti Ananya Reddy",
+        "key": "guddeti ananya reddy",
+        "college": "Christ University"
+      },
+      {
+        "name": "Ishanvi Kapila",
+        "key": "ishanvi kapila",
+        "college": "Christ University (Yeshwanthpur Campus)"
+      },
+      {
+        "name": "J THIRUMALAI",
+        "key": "j thirumalai",
+        "college": "Alliance University"
+      },
+      {
+        "name": "Jeival kale",
+        "key": "jeival kale",
+        "college": "Kristu Jayanti (Deemed to be) University"
+      },
+      {
+        "name": "Jeival M Kale",
+        "key": "jeival m kale",
+        "college": "Kristu Jayanti (Deemed to be) University"
+      },
+      {
+        "name": "Jenet Jose",
+        "key": "jenet jose",
+        "college": "Kristu Jayanti (Deemed to be) University"
+      },
+      {
+        "name": "JENET JOSE",
+        "key": "jenet jose",
+        "college": "Kristu Jayanti (Deemed to be) University"
+      },
+      {
+        "name": "Jonathan Sampaul",
+        "key": "jonathan sampaul",
+        "college": "Alliance University"
+      },
+      {
+        "name": "Korupuri johan shankar",
+        "key": "korupuri johan shankar",
+        "college": "Alliance University"
+      },
+      {
+        "name": "Korupuri Johan Shankar",
+        "key": "korupuri johan shankar",
+        "college": "Alliance University"
+      },
+      {
+        "name": "Krishna Koustubh Chintalapti",
+        "key": "krishna koustubh chintalapti",
+        "college": "Christ University (Yeshwanthpur Campus)"
+      },
+      {
+        "name": "Kshitiz Sinha",
+        "key": "kshitiz sinha",
+        "college": "St. Claret College"
+      },
+      {
+        "name": "KUMARAN  S S",
+        "key": "kumaran  s s",
+        "college": "Alliance University"
+      },
+      {
+        "name": "KUMARAN SS",
+        "key": "kumaran ss",
+        "college": "Alliance University"
+      },
+      {
+        "name": "KUMERAN S S",
+        "key": "kumeran s s",
+        "college": "Alliance University"
+      },
+      {
+        "name": "LISHA",
+        "key": "lisha",
+        "college": "Christ University"
+      },
+      {
+        "name": "M Chethana",
+        "key": "m chethana",
+        "college": "Alliance University"
+      },
+      {
+        "name": "Madhuri Goud",
+        "key": "madhuri goud",
+        "college": "Christ University"
+      },
+      {
+        "name": "Mohak mithra",
+        "key": "mohak mithra",
+        "college": "Alliance University"
+      },
+      {
+        "name": "Mohak Mithra",
+        "key": "mohak mithra",
+        "college": "Alliance University"
+      },
+      {
+        "name": "N Renu Sree",
+        "key": "n renu sree",
+        "college": "Alliance University"
+      },
+      {
+        "name": "N Renusree",
+        "key": "n renusree",
+        "college": "Alliance University"
+      },
+      {
+        "name": "NITHISH KUMAR N R",
+        "key": "nithish kumar n r",
+        "college": "Alliance University"
+      },
+      {
+        "name": "P Manoj Reddy",
+        "key": "p manoj reddy",
+        "college": "Alliance University"
+      },
+      {
+        "name": "P. Praneetha",
+        "key": "p. praneetha",
+        "college": "Alliance University"
+      },
+      {
+        "name": "Paruchuru venkata sai Kenisha",
+        "key": "paruchuru venkata sai kenisha",
+        "college": "Alliance University"
+      },
+      {
+        "name": "Paruchuru Venkata Sai Kenisha",
+        "key": "paruchuru venkata sai kenisha",
+        "college": "Alliance University"
+      },
+      {
+        "name": "Prakasika B",
+        "key": "prakasika b",
+        "college": "Alliance University"
+      },
+      {
+        "name": "praneetha",
+        "key": "praneetha",
+        "college": "Alliance University"
+      },
+      {
+        "name": "Praneetha",
+        "key": "praneetha",
+        "college": "Alliance University"
+      },
+      {
+        "name": "Priya R",
+        "key": "priya r",
+        "college": "Christ University"
+      },
+      {
+        "name": "Priyal Ganesh Dave",
+        "key": "priyal ganesh dave",
+        "college": "Christ University (Yeshwanthpur Campus)"
+      },
+      {
+        "name": "Ranbir Singh",
+        "key": "ranbir singh",
+        "college": "Alliance University"
+      },
+      {
+        "name": "Ravi Kumawat H",
+        "key": "ravi kumawat h",
+        "college": "St. Claret College"
+      },
+      {
+        "name": "Rithik NS",
+        "key": "rithik ns",
+        "college": "Alliance University"
+      },
+      {
+        "name": "RITHIK NS",
+        "key": "rithik ns",
+        "college": "Alliance University"
+      },
+      {
+        "name": "Rose Maria Joshy",
+        "key": "rose maria joshy",
+        "college": "Christ University (Yeshwanthpur Campus)"
+      },
+      {
+        "name": "Rose Maria Joshy",
+        "key": "rose maria joshy",
+        "college": "Christ University"
+      },
+      {
+        "name": "Roshni Ravindran",
+        "key": "roshni ravindran",
+        "college": "Christ University (Yeshwanthpur Campus)"
+      },
+      {
+        "name": "S Adarsh",
+        "key": "s adarsh",
+        "college": "Alliance University"
+      },
+      {
+        "name": "S ADARSH",
+        "key": "s adarsh",
+        "college": "Alliance University"
+      },
+      {
+        "name": "S Udayshankar",
+        "key": "s udayshankar",
+        "college": "Alliance University"
+      },
+      {
+        "name": "Saniya",
+        "key": "saniya",
+        "college": "Alliance University"
+      },
+      {
+        "name": "sanjana sharma",
+        "key": "sanjana sharma",
+        "college": "Alliance University"
+      },
+      {
+        "name": "Sanjana Sharma",
+        "key": "sanjana sharma",
+        "college": "Alliance University"
+      },
+      {
+        "name": "Sarang",
+        "key": "sarang",
+        "college": "Alliance University"
+      },
+      {
+        "name": "Sarang Sanjeev",
+        "key": "sarang sanjeev",
+        "college": "Alliance University"
+      },
+      {
+        "name": "Sarannya Dutta",
+        "key": "sarannya dutta",
+        "college": "Christ University (Yeshwanthpur Campus)"
+      },
+      {
+        "name": "Saurabh Sahani",
+        "key": "saurabh sahani",
+        "college": "St. Claret College"
+      },
+      {
+        "name": "Shalini",
+        "key": "shalini",
+        "college": "Alliance University"
+      },
+      {
+        "name": "Shankar",
+        "key": "shankar",
+        "college": "GFGC College Hoskote"
+      },
+      {
+        "name": "Shastra Shri",
+        "key": "shastra shri",
+        "college": "Christ University (Yeshwanthpur Campus)"
+      },
+      {
+        "name": "Shastra Shri",
+        "key": "shastra shri",
+        "college": "Christ University"
+      },
+      {
+        "name": "Shaurya kewalramani",
+        "key": "shaurya kewalramani",
+        "college": "Alliance University"
+      },
+      {
+        "name": "SHIVA",
+        "key": "shiva",
+        "college": "GFGC College Hoskote"
+      },
+      {
+        "name": "Shivankar Sharma",
+        "key": "shivankar sharma",
+        "college": "Christ University"
+      },
+      {
+        "name": "Shristy Kumari",
+        "key": "shristy kumari",
+        "college": "Christ University (Yeshwanthpur Campus)"
+      },
+      {
+        "name": "Siddhant Suryavanshi",
+        "key": "siddhant suryavanshi",
+        "college": "Christ University (Yeshwanthpur Campus)"
+      },
+      {
+        "name": "Sujan",
+        "key": "sujan",
+        "college": "Christ University"
+      },
+      {
+        "name": "Sujan",
+        "key": "sujan",
+        "college": "Alliance University"
+      },
+      {
+        "name": "SUJAN",
+        "key": "sujan",
+        "college": "Alliance University"
+      },
+      {
+        "name": "Sujan R",
+        "key": "sujan r",
+        "college": "Alliance University"
+      },
+      {
+        "name": "Sushil Sharma",
+        "key": "sushil sharma",
+        "college": "Christ University"
+      },
+      {
+        "name": "Syed Junaid Nawaz",
+        "key": "syed junaid nawaz",
+        "college": "Alliance University"
+      },
+      {
+        "name": "Syed Rasul Husaif",
+        "key": "syed rasul husaif",
+        "college": "Alliance University"
+      },
+      {
+        "name": "Syeda Saniya Inayath",
+        "key": "syeda saniya inayath",
+        "college": "Alliance University"
+      },
+      {
+        "name": "Tanay Agrawal",
+        "key": "tanay agrawal",
+        "college": "Christ University (Yeshwanthpur Campus)"
+      },
+      {
+        "name": "Tanistha Singh",
+        "key": "tanistha singh",
+        "college": "Christ University (Yeshwanthpur Campus)"
+      },
+      {
+        "name": "Tejas Amit Bhoyar",
+        "key": "tejas amit bhoyar",
+        "college": "Christ University (Yeshwanthpur Campus)"
+      },
+      {
+        "name": "THIRUMALAI J",
+        "key": "thirumalai j",
+        "college": "Alliance University"
+      },
+      {
+        "name": "V M Lahari",
+        "key": "v m lahari",
+        "college": "Alliance University"
+      },
+      {
+        "name": "V Rishi Ashish Vel",
+        "key": "v rishi ashish vel",
+        "college": "Alliance University"
+      },
+      {
+        "name": "Vaddi reddy Madhavi",
+        "key": "vaddi reddy madhavi",
+        "college": "Alliance University"
+      },
+      {
+        "name": "Varun",
+        "key": "varun",
+        "college": "Christ University"
+      },
+      {
+        "name": "Vedhanth Yadav Y",
+        "key": "vedhanth yadav y",
+        "college": "Kristu Jayanti (Deemed to be) University"
+      },
+      {
+        "name": "VEDHANTH YADAV Y",
+        "key": "vedhanth yadav y",
+        "college": "Kristu Jayanti (Deemed to be) University"
+      },
+      {
+        "name": "Vibha Lakshmeesh",
+        "key": "vibha lakshmeesh",
+        "college": "Christ University (Yeshwanthpur Campus)"
+      },
+      {
+        "name": "Vignesh K",
+        "key": "vignesh k",
+        "college": "Alliance University"
+      },
+      {
+        "name": "Vishesh Raghuvanshi",
+        "key": "vishesh raghuvanshi",
+        "college": "Christ University (Yeshwanthpur Campus)"
+      }
+    ],
+    "Math Heist": [
+      {
+        "name": "Abhishek",
+        "key": "abhishek",
+        "college": "Christ University (Yeshwanthpur Campus)"
+      },
+      {
+        "name": "Abhishek Kumar",
+        "key": "abhishek kumar",
+        "college": "Alliance University"
+      },
+      {
+        "name": "Ananya Kapoor",
+        "key": "ananya kapoor",
+        "college": "Christ University (Yeshwanthpur Campus)"
+      },
+      {
+        "name": "Arjun S",
+        "key": "arjun s",
+        "college": "Christ University (BYC)"
+      },
+      {
+        "name": "Ashmit Saxena",
+        "key": "ashmit saxena",
+        "college": "Christ University (Yeshwanthpur Campus)"
+      },
+      {
+        "name": "Asmita Bhattacharyya",
+        "key": "asmita bhattacharyya",
+        "college": "Christ University (Yeshwanthpur Campus)"
+      },
+      {
+        "name": "B Harshith reddy",
+        "key": "b harshith reddy",
+        "college": "Alliance University"
+      },
+      {
+        "name": "Chaya Devi S",
+        "key": "chaya devi s",
+        "college": "Jyoti Nivas College (Autonomous)"
+      },
+      {
+        "name": "Chayadevi.S",
+        "key": "chayadevi.s",
+        "college": "Jyoti Nivas College (Autonomous)"
+      },
+      {
+        "name": "Chirayu Yathindra banappa",
+        "key": "chirayu yathindra banappa",
+        "college": "Alliance University"
+      },
+      {
+        "name": "Devang M jain",
+        "key": "devang m jain",
+        "college": "Alliance University"
+      },
+      {
+        "name": "Dhriti D Manek",
+        "key": "dhriti d manek",
+        "college": "Christ University (Yeshwanthpur Campus)"
+      },
+      {
+        "name": "Haricharan Ravi",
+        "key": "haricharan ravi",
+        "college": "Christ University (Yeshwanthpur Campus)"
+      },
+      {
+        "name": "Hemani powar",
+        "key": "hemani powar",
+        "college": "Jyoti Nivas College (Autonomous)"
+      },
+      {
+        "name": "Himanie",
+        "key": "himanie",
+        "college": "Jyoti Nivas College (Autonomous)"
+      },
+      {
+        "name": "Joshua Job",
+        "key": "joshua job",
+        "college": "Christ University (Yeshwanthpur Campus)"
+      },
+      {
+        "name": "Jyothi K",
+        "key": "jyothi k",
+        "college": "Jyoti Nivas College (Autonomous)"
+      },
+      {
+        "name": "Jyoti",
+        "key": "jyoti",
+        "college": "Jyoti Nivas College (Autonomous)"
+      },
+      {
+        "name": "Karishma bk",
+        "key": "karishma bk",
+        "college": "Jyoti Nivas College (Autonomous)"
+      },
+      {
+        "name": "Karishma Bk",
+        "key": "karishma bk",
+        "college": "Jyoti Nivas College (Autonomous)"
+      },
+      {
+        "name": "Lehar Verma",
+        "key": "lehar verma",
+        "college": "Christ University (Yeshwanthpur Campus)"
+      },
+      {
+        "name": "Man Patel",
+        "key": "man patel",
+        "college": "Alliance University"
+      },
+      {
+        "name": "Maness S Nair",
+        "key": "maness s nair",
+        "college": "Alliance University"
+      },
+      {
+        "name": "Maness.s.nair",
+        "key": "maness.s.nair",
+        "college": "Alliance University"
+      },
+      {
+        "name": "Md Tauqueer Rizwan",
+        "key": "md tauqueer rizwan",
+        "college": "Christ University (Yeshwanthpur Campus)"
+      },
+      {
+        "name": "Mihal Boby",
+        "key": "mihal boby",
+        "college": "Alliance University"
+      },
+      {
+        "name": "Mihal boby Thottathil",
+        "key": "mihal boby thottathil",
+        "college": "Alliance University"
+      },
+      {
+        "name": "Moolam Mahesh",
+        "key": "moolam mahesh",
+        "college": "Alliance University"
+      },
+      {
+        "name": "Mridul Grover",
+        "key": "mridul grover",
+        "college": "Christ University (Yeshwanthpur Campus)"
+      },
+      {
+        "name": "Naman singh",
+        "key": "naman singh",
+        "college": "Christ University (Yeshwanthpur Campus)"
+      },
+      {
+        "name": "Naren T K",
+        "key": "naren t k",
+        "college": "Christ University (Yeshwanthpur Campus)"
+      },
+      {
+        "name": "Nithin B Sebastian",
+        "key": "nithin b sebastian",
+        "college": "Christ University (Yeshwanthpur Campus)"
+      },
+      {
+        "name": "Nithish Kiran",
+        "key": "nithish kiran",
+        "college": "Christ University (Yeshwanthpur Campus)"
+      },
+      {
+        "name": "Pranav",
+        "key": "pranav",
+        "college": "Alliance University"
+      },
+      {
+        "name": "Pranjal Vatsa",
+        "key": "pranjal vatsa",
+        "college": "Alliance University"
+      },
+      {
+        "name": "Priya Rawat",
+        "key": "priya rawat",
+        "college": "Alliance University"
+      },
+      {
+        "name": "R T Sowmi Sonakshi",
+        "key": "r t sowmi sonakshi",
+        "college": "Christ University (Yeshwanthpur Campus)"
+      },
+      {
+        "name": "Rajica J",
+        "key": "rajica j",
+        "college": "Jyoti Nivas College (Autonomous)"
+      },
+      {
+        "name": "Rajica.j",
+        "key": "rajica.j",
+        "college": "Jyoti Nivas College (Autonomous)"
+      },
+      {
+        "name": "Rakesh M",
+        "key": "rakesh m",
+        "college": "Alliance University"
+      },
+      {
+        "name": "Ritika tella",
+        "key": "ritika tella",
+        "college": "Alliance University"
+      },
+      {
+        "name": "Sadanand Prince AC",
+        "key": "sadanand prince ac",
+        "college": "Christ University (BYC)"
+      },
+      {
+        "name": "Sagal Virdi",
+        "key": "sagal virdi",
+        "college": "Christ University (Yeshwanthpur Campus)"
+      },
+      {
+        "name": "Salim Sofi",
+        "key": "salim sofi",
+        "college": "Christ University (Yeshwanthpur Campus)"
+      },
+      {
+        "name": "Sana Manjunath Reddy",
+        "key": "sana manjunath reddy",
+        "college": "Alliance University"
+      },
+      {
+        "name": "Siddharth R Nair",
+        "key": "siddharth r nair",
+        "college": "Alliance University"
+      },
+      {
+        "name": "Smruti Ranjan Rautaray",
+        "key": "smruti ranjan rautaray",
+        "college": "Alliance University"
+      },
+      {
+        "name": "Soham",
+        "key": "soham",
+        "college": "Alliance University"
+      },
+      {
+        "name": "Sowmiya A",
+        "key": "sowmiya a",
+        "college": "Jyoti Nivas College (Autonomous)"
+      },
+      {
+        "name": "Sowmiya. A",
+        "key": "sowmiya. a",
+        "college": "Jyoti Nivas College (Autonomous)"
+      },
+      {
+        "name": "Stuti Karur",
+        "key": "stuti karur",
+        "college": "Christ University (Yeshwanthpur Campus)"
+      },
+      {
+        "name": "Suryanarayana",
+        "key": "suryanarayana",
+        "college": "Christ University (Yeshwanthpur Campus)"
+      },
+      {
+        "name": "Tathya Desai",
+        "key": "tathya desai",
+        "college": "Christ University (Yeshwanthpur Campus)"
+      },
+      {
+        "name": "Vansh Modi",
+        "key": "vansh modi",
+        "college": "Christ University (Yeshwanthpur Campus)"
+      },
+      {
+        "name": "Vasanth S",
+        "key": "vasanth s",
+        "college": "Christ University (BYC)"
+      }
+    ],
+    "Traitor's Algorithm": [
+      {
+        "name": "Chishow Pfokreni",
+        "key": "chishow pfokreni",
+        "college": "Kristu Jayanti (Deemed to be) University"
+      },
+      {
+        "name": "Devang Jain",
+        "key": "devang jain",
+        "college": "Alliance University"
+      },
+      {
+        "name": "Devang M Jain",
+        "key": "devang m jain",
+        "college": "Alliance University"
+      },
+      {
+        "name": "Divyansh",
+        "key": "divyansh",
+        "college": "Alliance University"
+      },
+      {
+        "name": "DIVYANSH",
+        "key": "divyansh",
+        "college": "Alliance University"
+      },
+      {
+        "name": "Harshit Talreja",
+        "key": "harshit talreja",
+        "college": "Alliance University"
+      },
+      {
+        "name": "HARSHIT TALREJA",
+        "key": "harshit talreja",
+        "college": "Alliance University"
+      },
+      {
+        "name": "Jackson Tom",
+        "key": "jackson tom",
+        "college": "Kristu Jayanti (Deemed to be) University"
+      },
+      {
+        "name": "Jenet Jose",
+        "key": "jenet jose",
+        "college": "Kristu Jayanti (Deemed to be) University"
+      },
+      {
+        "name": "JENET JOSE",
+        "key": "jenet jose",
+        "college": "Kristu Jayanti (Deemed to be) University"
+      },
+      {
+        "name": "Jonathan Sampaul",
+        "key": "jonathan sampaul",
+        "college": "Alliance University"
+      },
+      {
+        "name": "Kavya Khurana",
+        "key": "kavya khurana",
+        "college": "Alliance University"
+      },
+      {
+        "name": "Krishika M",
+        "key": "krishika m",
+        "college": "Alliance University"
+      },
+      {
+        "name": "Krishika.M",
+        "key": "krishika.m",
+        "college": "Alliance University"
+      },
+      {
+        "name": "Lehar Verma",
+        "key": "lehar verma",
+        "college": "Christ University (Yeshwanthpur Campus)"
+      },
+      {
+        "name": "Manas lalwani",
+        "key": "manas lalwani",
+        "college": "Alliance University"
+      },
+      {
+        "name": "Manas Lalwani",
+        "key": "manas lalwani",
+        "college": "Alliance University"
+      },
+      {
+        "name": "Mridul Grover",
+        "key": "mridul grover",
+        "college": "Christ University (Yeshwanthpur Campus)"
+      },
+      {
+        "name": "Naren T K",
+        "key": "naren t k",
+        "college": "Christ University (Yeshwanthpur Campus)"
+      },
+      {
+        "name": "Nikhil Kumar",
+        "key": "nikhil kumar",
+        "college": "Alliance University"
+      },
+      {
+        "name": "Parvathi P J",
+        "key": "parvathi p j",
+        "college": "Alliance University"
+      },
+      {
+        "name": "Parvathi PJ",
+        "key": "parvathi pj",
+        "college": "Alliance University"
+      },
+      {
+        "name": "Pranav",
+        "key": "pranav",
+        "college": "Alliance University"
+      },
+      {
+        "name": "Pranav Aravin Namadev",
+        "key": "pranav aravin namadev",
+        "college": "Alliance University"
+      },
+      {
+        "name": "Pratik sharma",
+        "key": "pratik sharma",
+        "college": "Alliance University"
+      },
+      {
+        "name": "Pratik Sharma",
+        "key": "pratik sharma",
+        "college": "Alliance University"
+      },
+      {
+        "name": "Purbesha Mondal",
+        "key": "purbesha mondal",
+        "college": "Alliance University"
+      },
+      {
+        "name": "Purvi Singh",
+        "key": "purvi singh",
+        "college": "Alliance University"
+      },
+      {
+        "name": "Ritika tella",
+        "key": "ritika tella",
+        "college": "Alliance University"
+      },
+      {
+        "name": "Ritika Tella",
+        "key": "ritika tella",
+        "college": "Alliance University"
+      },
+      {
+        "name": "Roshini D Verma",
+        "key": "roshini d verma",
+        "college": "Alliance University"
+      },
+      {
+        "name": "S ANEEEH SURYA",
+        "key": "s aneeeh surya",
+        "college": "Alliance University"
+      },
+      {
+        "name": "S Aneesh surya",
+        "key": "s aneesh surya",
+        "college": "Alliance University"
+      },
+      {
+        "name": "S Udayshankar",
+        "key": "s udayshankar",
+        "college": "Alliance University"
+      },
+      {
+        "name": "Shasmeen Shariff",
+        "key": "shasmeen shariff",
+        "college": "Alliance University"
+      },
+      {
+        "name": "Shaury Laad",
+        "key": "shaury laad",
+        "college": "Alliance University"
+      },
+      {
+        "name": "Soham",
+        "key": "soham",
+        "college": "Alliance University"
+      },
+      {
+        "name": "Soham Shetty",
+        "key": "soham shetty",
+        "college": "Alliance University"
+      },
+      {
+        "name": "Stuti Karur",
+        "key": "stuti karur",
+        "college": "Christ University (Yeshwanthpur Campus)"
+      },
+      {
+        "name": "Suhas Bhat",
+        "key": "suhas bhat",
+        "college": "Alliance University"
+      },
+      {
+        "name": "Sumit Yadav",
+        "key": "sumit yadav",
+        "college": "Alliance University"
+      },
+      {
+        "name": "Suryanarayanan",
+        "key": "suryanarayanan",
+        "college": "Christ University (Yeshwanthpur Campus)"
+      },
+      {
+        "name": "Tanishq Jha",
+        "key": "tanishq jha",
+        "college": "Alliance University"
+      },
+      {
+        "name": "Tharaka Laxmi P",
+        "key": "tharaka laxmi p",
+        "college": "Alliance University"
+      },
+      {
+        "name": "Thirta",
+        "key": "thirta",
+        "college": "Alliance University"
+      },
+      {
+        "name": "Thirta Aiyappa K",
+        "key": "thirta aiyappa k",
+        "college": "Alliance University"
+      },
+      {
+        "name": "Vansh Modi",
+        "key": "vansh modi",
+        "college": "Christ University (Yeshwanthpur Campus)"
+      },
+      {
+        "name": "Vedanth J Gowda",
+        "key": "vedanth j gowda",
+        "college": "Alliance University"
+      },
+      {
+        "name": "Vedhanth Yadav Y",
+        "key": "vedhanth yadav y",
+        "college": "Kristu Jayanti (Deemed to be) University"
+      },
+      {
+        "name": "VEDHANTH YADAV Y",
+        "key": "vedhanth yadav y",
+        "college": "Kristu Jayanti (Deemed to be) University"
+      }
+    ],
+    "Numero Bingo": [
+      {
+        "name": "ABHA SHIJIN SUSAN",
+        "key": "abha shijin susan",
+        "college": "Alliance University"
+      },
+      {
+        "name": "Abha Susan Shijin",
+        "key": "abha susan shijin",
+        "college": "Alliance University"
+      },
+      {
+        "name": "Abhinaya sankar",
+        "key": "abhinaya sankar",
+        "college": "Jyoti Nivas College (Autonomous)"
+      },
+      {
+        "name": "Abhishek kumar",
+        "key": "abhishek kumar",
+        "college": "Alliance University"
+      },
+      {
+        "name": "Abhishek Kumar",
+        "key": "abhishek kumar",
+        "college": "Alliance University"
+      },
+      {
+        "name": "Aditya Kumar",
+        "key": "aditya kumar",
+        "college": "Alliance University"
+      },
+      {
+        "name": "Akshat Rastogi",
+        "key": "akshat rastogi",
+        "college": "Alliance University"
+      },
+      {
+        "name": "Akshitha Immaculate A",
+        "key": "akshitha immaculate a",
+        "college": "Alliance University"
+      },
+      {
+        "name": "AKSHITHA IMMACULATE A",
+        "key": "akshitha immaculate a",
+        "college": "Alliance University"
+      },
+      {
+        "name": "Aswathi P V",
+        "key": "aswathi p v",
+        "college": "M S Ramaiah College of Arts, Science and Commerce"
+      },
+      {
+        "name": "Avinash A",
+        "key": "avinash a",
+        "college": "Alliance University"
+      },
+      {
+        "name": "Charumathi S",
+        "key": "charumathi s",
+        "college": "Alliance University"
+      },
+      {
+        "name": "Charumathi.s",
+        "key": "charumathi.s",
+        "college": "Alliance University"
+      },
+      {
+        "name": "Cyril",
+        "key": "cyril",
+        "college": "M S Ramaiah College of Arts, Science and Commerce"
+      },
+      {
+        "name": "ENITH K A",
+        "key": "enith k a",
+        "college": "Alliance University"
+      },
+      {
+        "name": "ENITH KA",
+        "key": "enith ka",
+        "college": "Alliance University"
+      },
+      {
+        "name": "Gaurang Sachdeva",
+        "key": "gaurang sachdeva",
+        "college": "Alliance University"
+      },
+      {
+        "name": "Guru Balachandran",
+        "key": "guru balachandran",
+        "college": "Alliance University"
+      },
+      {
+        "name": "Haridhar",
+        "key": "haridhar",
+        "college": "Alliance University"
+      },
+      {
+        "name": "Haridhar B",
+        "key": "haridhar b",
+        "college": "Alliance University"
+      },
+      {
+        "name": "Ishanvi Kapila",
+        "key": "ishanvi kapila",
+        "college": "Christ University (Yeshwanthpur Campus)"
+      },
+      {
+        "name": "K.Akshitha Priya",
+        "key": "k.akshitha priya",
+        "college": "Jyoti Nivas College (Autonomous)"
+      },
+      {
+        "name": "Keerthana G",
+        "key": "keerthana g",
+        "college": "Jyoti Nivas College (Autonomous)"
+      },
+      {
+        "name": "Krishna Koustubh Chintalapti",
+        "key": "krishna koustubh chintalapti",
+        "college": "Christ University (Yeshwanthpur Campus)"
+      },
+      {
+        "name": "L Jayant",
+        "key": "l jayant",
+        "college": "Alliance University"
+      },
+      {
+        "name": "Lakshitha",
+        "key": "lakshitha",
+        "college": "Kristu Jayanti (Deemed to be) University"
+      },
+      {
+        "name": "Lakshitha S",
+        "key": "lakshitha s",
+        "college": "Kristu Jayanti (Deemed to be) University"
+      },
+      {
+        "name": "Likitha  shree M",
+        "key": "likitha  shree m",
+        "college": "Alliance University"
+      },
+      {
+        "name": "Likitha shree.m",
+        "key": "likitha shree.m",
+        "college": "Alliance University"
+      },
+      {
+        "name": "madhihathabasum",
+        "key": "madhihathabasum",
+        "college": "Alliance University"
+      },
+      {
+        "name": "MADHIHATHABHASUM R",
+        "key": "madhihathabhasum r",
+        "college": "Alliance University"
+      },
+      {
+        "name": "meghana A",
+        "key": "meghana a",
+        "college": "Alliance University"
+      },
+      {
+        "name": "MEGHANA A",
+        "key": "meghana a",
+        "college": "Alliance University"
+      },
+      {
+        "name": "MITHILESH G R",
+        "key": "mithilesh g r",
+        "college": "Alliance University"
+      },
+      {
+        "name": "Myra jesse fernandes",
+        "key": "myra jesse fernandes",
+        "college": "Alliance University"
+      },
+      {
+        "name": "Myra Jesse Fernandes",
+        "key": "myra jesse fernandes",
+        "college": "Alliance University"
+      },
+      {
+        "name": "Mythree R",
+        "key": "mythree r",
+        "college": "Alliance University"
+      },
+      {
+        "name": "Mythree.R",
+        "key": "mythree.r",
+        "college": "Alliance University"
+      },
+      {
+        "name": "NA",
+        "key": "na",
+        "college": "Christ University (Yeshwanthpur Campus)"
+      },
+      {
+        "name": "Nanditha P Kumar",
+        "key": "nanditha p kumar",
+        "college": "Christ University (Yeshwanthpur Campus)"
+      },
+      {
+        "name": "Norah Anna Jose",
+        "key": "norah anna jose",
+        "college": "Christ University (Yeshwanthpur Campus)"
+      },
+      {
+        "name": "Parvathy Sudheer",
+        "key": "parvathy sudheer",
+        "college": "Christ University (Yeshwanthpur Campus)"
+      },
+      {
+        "name": "PRAMOD V",
+        "key": "pramod v",
+        "college": "Alliance University"
+      },
+      {
+        "name": "Pranjal Vatsa",
+        "key": "pranjal vatsa",
+        "college": "Alliance University"
+      },
+      {
+        "name": "Rose Maria Joshy",
+        "key": "rose maria joshy",
+        "college": "Christ University (Yeshwanthpur Campus)"
+      },
+      {
+        "name": "Roshni Ravindran",
+        "key": "roshni ravindran",
+        "college": "Christ University (Yeshwanthpur Campus)"
+      },
+      {
+        "name": "Sanskar Behra",
+        "key": "sanskar behra",
+        "college": "Alliance University"
+      },
+      {
+        "name": "Sarannya Dutta",
+        "key": "sarannya dutta",
+        "college": "Christ University (Yeshwanthpur Campus)"
+      },
+      {
+        "name": "Shristy Kumari",
+        "key": "shristy kumari",
+        "college": "Christ University"
+      },
+      {
+        "name": "Solai sudharshan solaiyappan",
+        "key": "solai sudharshan solaiyappan",
+        "college": "Alliance University"
+      },
+      {
+        "name": "Solai Sudharshan Solaiyappan",
+        "key": "solai sudharshan solaiyappan",
+        "college": "Alliance University"
+      },
+      {
+        "name": "SUKUMAR B K",
+        "key": "sukumar b k",
+        "college": "Alliance University"
+      },
+      {
+        "name": "SUKUMAR BK",
+        "key": "sukumar bk",
+        "college": "Alliance University"
+      },
+      {
+        "name": "Tania V S",
+        "key": "tania v s",
+        "college": "Christ University (Yeshwanthpur Campus)"
+      },
+      {
+        "name": "Tania V. S",
+        "key": "tania v. s",
+        "college": "Christ University (Yeshwanthpur Campus)"
+      },
+      {
+        "name": "Tanistha Singh",
+        "key": "tanistha singh",
+        "college": "Christ University"
+      },
+      {
+        "name": "Thipshika",
+        "key": "thipshika",
+        "college": "Kristu Jayanti (Deemed to be) University"
+      },
+      {
+        "name": "Thipshika k",
+        "key": "thipshika k",
+        "college": "Kristu Jayanti (Deemed to be) University"
+      },
+      {
+        "name": "Ujjawal Pathak",
+        "key": "ujjawal pathak",
+        "college": "Alliance University"
+      },
+      {
+        "name": "Vainavi",
+        "key": "vainavi",
+        "college": "Alliance University"
+      },
+      {
+        "name": "Vainavi S",
+        "key": "vainavi s",
+        "college": "Alliance University"
+      },
+      {
+        "name": "Vibha Lakshmeesh",
+        "key": "vibha lakshmeesh",
+        "college": "Christ University (Yeshwanthpur Campus)"
+      },
+      {
+        "name": "Yogendra T",
+        "key": "yogendra t",
+        "college": "Alliance University"
+      },
+      {
+        "name": "Yubraj Sharma",
+        "key": "yubraj sharma",
+        "college": "Alliance University"
+      },
+      {
+        "name": "Zainab",
+        "key": "zainab",
+        "college": "Jyoti Nivas College (Autonomous)"
+      },
+      {
+        "name": "Zyna Kanth",
+        "key": "zyna kanth",
+        "college": "Alliance University"
+      }
+    ],
+    "Odds & Overdrive": [
+      {
+        "name": "Aaryan rawat",
+        "key": "aaryan rawat",
+        "college": "Christ University (Yeshwanthpur Campus)"
+      },
+      {
+        "name": "Aaryan Rawat",
+        "key": "aaryan rawat",
+        "college": "Christ University (Yeshwanthpur Campus)"
+      },
+      {
+        "name": "ABHA SHIJIN SUSAN",
+        "key": "abha shijin susan",
+        "college": "Alliance University"
+      },
+      {
+        "name": "Abha Susan Shijin",
+        "key": "abha susan shijin",
+        "college": "Alliance University"
+      },
+      {
+        "name": "Abhinaya sankar",
+        "key": "abhinaya sankar",
+        "college": "Jyoti Nivas College (Autonomous)"
+      },
+      {
+        "name": "Adhvik Mohan Singh Khatri",
+        "key": "adhvik mohan singh khatri",
+        "college": "Christ University (BYC)"
+      },
+      {
+        "name": "Advik Pandey",
+        "key": "advik pandey",
+        "college": "Christ University (Yeshwanthpur Campus)"
+      },
+      {
+        "name": "Akshitha Immaculate A",
+        "key": "akshitha immaculate a",
+        "college": "Alliance University"
+      },
+      {
+        "name": "AKSHITHA IMMACULATE A",
+        "key": "akshitha immaculate a",
+        "college": "Alliance University"
+      },
+      {
+        "name": "Aswathi P V",
+        "key": "aswathi p v",
+        "college": "M S Ramaiah College of Arts, Science and Commerce"
+      },
+      {
+        "name": "Bhavya Herchandani",
+        "key": "bhavya herchandani",
+        "college": "Christ University"
+      },
+      {
+        "name": "Bhavya Herchandani",
+        "key": "bhavya herchandani",
+        "college": "Christ University (Yeshwanthpur Campus)"
+      },
+      {
+        "name": "Bilal",
+        "key": "bilal",
+        "college": "Alliance University"
+      },
+      {
+        "name": "Chinmay",
+        "key": "chinmay",
+        "college": "Alliance University"
+      },
+      {
+        "name": "Cyril Warren Nichocolas",
+        "key": "cyril warren nichocolas",
+        "college": "M S Ramaiah College of Arts, Science and Commerce"
+      },
+      {
+        "name": "Devang Jain",
+        "key": "devang jain",
+        "college": "Alliance University"
+      },
+      {
+        "name": "Janhavi",
+        "key": "janhavi",
+        "college": "Alliance University"
+      },
+      {
+        "name": "Janhavi R",
+        "key": "janhavi r",
+        "college": "Alliance University"
+      },
+      {
+        "name": "K.Akshitha Priya",
+        "key": "k.akshitha priya",
+        "college": "Jyoti Nivas College (Autonomous)"
+      },
+      {
+        "name": "Kabish Barua",
+        "key": "kabish barua",
+        "college": "Alliance University"
+      },
+      {
+        "name": "Keerthana G",
+        "key": "keerthana g",
+        "college": "Jyoti Nivas College (Autonomous)"
+      },
+      {
+        "name": "Khathija Syed",
+        "key": "khathija syed",
+        "college": "Kristu Jayanti (Deemed to be) University"
+      },
+      {
+        "name": "Krishaanu",
+        "key": "krishaanu",
+        "college": "Alliance University"
+      },
+      {
+        "name": "Nandika Bini",
+        "key": "nandika bini",
+        "college": "Christ University (Yeshwanthpur Campus)"
+      },
+      {
+        "name": "Nanditha P Kumar",
+        "key": "nanditha p kumar",
+        "college": "Christ University (Yeshwanthpur Campus)"
+      },
+      {
+        "name": "Parvathy Sudheer",
+        "key": "parvathy sudheer",
+        "college": "Christ University (Yeshwanthpur Campus)"
+      },
+      {
+        "name": "Priyal Singhvi",
+        "key": "priyal singhvi",
+        "college": "Christ University"
+      },
+      {
+        "name": "Priyal Singhvi",
+        "key": "priyal singhvi",
+        "college": "Christ University (Yeshwanthpur Campus)"
+      },
+      {
+        "name": "Riana Dechamma",
+        "key": "riana dechamma",
+        "college": "Christ University (Yeshwanthpur Campus)"
+      },
+      {
+        "name": "Riwo Thendup Sherpa",
+        "key": "riwo thendup sherpa",
+        "college": "Alliance University"
+      },
+      {
+        "name": "Rohit Balan Murali",
+        "key": "rohit balan murali",
+        "college": "Alliance University"
+      },
+      {
+        "name": "Rohith Balan Murali",
+        "key": "rohith balan murali",
+        "college": "Alliance University"
+      },
+      {
+        "name": "Satvik porwal",
+        "key": "satvik porwal",
+        "college": "Kristu Jayanti (Deemed to be) University"
+      },
+      {
+        "name": "Shohith",
+        "key": "shohith",
+        "college": "Alliance University"
+      },
+      {
+        "name": "Soham Shetty",
+        "key": "soham shetty",
+        "college": "Alliance University"
+      },
+      {
+        "name": "Solai sudharshan solaiyappan",
+        "key": "solai sudharshan solaiyappan",
+        "college": "Alliance University"
+      },
+      {
+        "name": "Solai Sudharshan Solaiyappan",
+        "key": "solai sudharshan solaiyappan",
+        "college": "Alliance University"
+      },
+      {
+        "name": "Suhas Bhat",
+        "key": "suhas bhat",
+        "college": "Alliance University"
+      },
+      {
+        "name": "Tannissha Pawar",
+        "key": "tannissha pawar",
+        "college": "Alliance University"
+      },
+      {
+        "name": "Ved Krishna Nambiar",
+        "key": "ved krishna nambiar",
+        "college": "Alliance University"
+      },
+      {
+        "name": "Vedanth J Gowda",
+        "key": "vedanth j gowda",
+        "college": "Alliance University"
+      },
+      {
+        "name": "Vrutant Sheth",
+        "key": "vrutant sheth",
+        "college": "Christ University (BYC)"
+      },
+      {
+        "name": "Yogendra T",
+        "key": "yogendra t",
+        "college": "Alliance University"
+      },
+      {
+        "name": "Zainab",
+        "key": "zainab",
+        "college": "Jyoti Nivas College (Autonomous)"
+      }
+    ],
+    "Cipher & Coin": [
+      {
+        "name": "Aadhithiyan",
+        "key": "aadhithiyan",
+        "college": "Alliance University"
+      },
+      {
+        "name": "Aanya Shrivastava",
+        "key": "aanya shrivastava",
+        "college": "Christ University (BYC)"
+      },
+      {
+        "name": "AANYA SHRIVASTAVA",
+        "key": "aanya shrivastava",
+        "college": "Christ University"
+      },
+      {
+        "name": "Aarush Khurana",
+        "key": "aarush khurana",
+        "college": "Christ University (Yeshwanthpur Campus)"
+      },
+      {
+        "name": "Aastha Gupta",
+        "key": "aastha gupta",
+        "college": "Alliance University"
+      },
+      {
+        "name": "Aastha Singh",
+        "key": "aastha singh",
+        "college": "Alliance University"
+      },
+      {
+        "name": "Aditao manna",
+        "key": "aditao manna",
+        "college": "Kristu Jayanti (Deemed to be) University"
+      },
+      {
+        "name": "Aditao Manna",
+        "key": "aditao manna",
+        "college": "Kristu Jayanti (Deemed to be) University"
+      },
+      {
+        "name": "Advik giresh",
+        "key": "advik giresh",
+        "college": "Kristu Jayanti (Deemed to be) University"
+      },
+      {
+        "name": "Advik Giresh",
+        "key": "advik giresh",
+        "college": "Kristu Jayanti (Deemed to be) University"
+      },
+      {
+        "name": "Ahana Raman",
+        "key": "ahana raman",
+        "college": "Christ University"
+      },
+      {
+        "name": "Ananya Sinha",
+        "key": "ananya sinha",
+        "college": "Christ University (BYC)"
+      },
+      {
+        "name": "ANANYA SINHA",
+        "key": "ananya sinha",
+        "college": "Christ University"
+      },
+      {
+        "name": "Asapu Harshith",
+        "key": "asapu harshith",
+        "college": "Alliance University"
+      },
+      {
+        "name": "Ashmit Saxena",
+        "key": "ashmit saxena",
+        "college": "Christ University (Yeshwanthpur Campus)"
+      },
+      {
+        "name": "B Kanisha Vardhana",
+        "key": "b kanisha vardhana",
+        "college": "Alliance University"
+      },
+      {
+        "name": "B KANSIHA VARDHANA",
+        "key": "b kansiha vardhana",
+        "college": "Alliance University"
+      },
+      {
+        "name": "Challa Shanmukha Chandra Saathvik",
+        "key": "challa shanmukha chandra saathvik",
+        "college": "Alliance University"
+      },
+      {
+        "name": "Chaya Devi S",
+        "key": "chaya devi s",
+        "college": "Jyoti Nivas College (Autonomous)"
+      },
+      {
+        "name": "Chayadevi.S",
+        "key": "chayadevi.s",
+        "college": "Jyoti Nivas College (Autonomous)"
+      },
+      {
+        "name": "Clement leo",
+        "key": "clement leo",
+        "college": "Alliance University"
+      },
+      {
+        "name": "Clement Leo",
+        "key": "clement leo",
+        "college": "Alliance University"
+      },
+      {
+        "name": "CLEMENT LEO M",
+        "key": "clement leo m",
+        "college": "Alliance University"
+      },
+      {
+        "name": "Dhruvi Ganeriwal",
+        "key": "dhruvi ganeriwal",
+        "college": "Christ University (Yeshwanthpur Campus)"
+      },
+      {
+        "name": "Gargi Panda",
+        "key": "gargi panda",
+        "college": "Christ University (Yeshwanthpur Campus)"
+      },
+      {
+        "name": "Jeival kale",
+        "key": "jeival kale",
+        "college": "Kristu Jayanti (Deemed to be) University"
+      },
+      {
+        "name": "Jeival M Kale",
+        "key": "jeival m kale",
+        "college": "Kristu Jayanti (Deemed to be) University"
+      },
+      {
+        "name": "Joshua Job",
+        "key": "joshua job",
+        "college": "Christ University (Yeshwanthpur Campus)"
+      },
+      {
+        "name": "KANISHA VARDHANA",
+        "key": "kanisha vardhana",
+        "college": "Alliance University"
+      },
+      {
+        "name": "Korupuri johan shankar",
+        "key": "korupuri johan shankar",
+        "college": "Alliance University"
+      },
+      {
+        "name": "Korupuri johan Shankar",
+        "key": "korupuri johan shankar",
+        "college": "Alliance University"
+      },
+      {
+        "name": "Korupuri Johan Shankar",
+        "key": "korupuri johan shankar",
+        "college": "Alliance University"
+      },
+      {
+        "name": "Kshitiz Sinha",
+        "key": "kshitiz sinha",
+        "college": "St. Claret College"
+      },
+      {
+        "name": "Kuttappa M G",
+        "key": "kuttappa m g",
+        "college": "Alliance University"
+      },
+      {
+        "name": "Mahesh",
+        "key": "mahesh",
+        "college": "Alliance University"
+      },
+      {
+        "name": "Manan Gala",
+        "key": "manan gala",
+        "college": "Alliance University"
+      },
+      {
+        "name": "Mehul Sobti",
+        "key": "mehul sobti",
+        "college": "Christ University (Yeshwanthpur Campus)"
+      },
+      {
+        "name": "Mohammad shafaath dhaniya",
+        "key": "mohammad shafaath dhaniya",
+        "college": "Alliance University"
+      },
+      {
+        "name": "Mohammed Afnan I",
+        "key": "mohammed afnan i",
+        "college": "Alliance University"
+      },
+      {
+        "name": "Mohammed shafaath dhaniya",
+        "key": "mohammed shafaath dhaniya",
+        "college": "Alliance University"
+      },
+      {
+        "name": "Mrinali Kathpalia",
+        "key": "mrinali kathpalia",
+        "college": "Christ University"
+      },
+      {
+        "name": "Muhammad Arafath",
+        "key": "muhammad arafath",
+        "college": "Alliance University"
+      },
+      {
+        "name": "Muhammad Arafath .A",
+        "key": "muhammad arafath .a",
+        "college": "Alliance University"
+      },
+      {
+        "name": "N R Deepthi Keerthana",
+        "key": "n r deepthi keerthana",
+        "college": "Christ University"
+      },
+      {
+        "name": "N Renu Sree",
+        "key": "n renu sree",
+        "college": "Alliance University"
+      },
+      {
+        "name": "N Renusree",
+        "key": "n renusree",
+        "college": "Alliance University"
+      },
+      {
+        "name": "Nikhita Reddy Yannam",
+        "key": "nikhita reddy yannam",
+        "college": "Alliance University"
+      },
+      {
+        "name": "NIKHITA REDDY YANNAM",
+        "key": "nikhita reddy yannam",
+        "college": "Alliance University"
+      },
+      {
+        "name": "NIKITHA REDDY YANAM",
+        "key": "nikitha reddy yanam",
+        "college": "Alliance University"
+      },
+      {
+        "name": "Nipunan",
+        "key": "nipunan",
+        "college": "Alliance University"
+      },
+      {
+        "name": "Nithyananth .k",
+        "key": "nithyananth .k",
+        "college": "Alliance University"
+      },
+      {
+        "name": "Nithyananth K",
+        "key": "nithyananth k",
+        "college": "Alliance University"
+      },
+      {
+        "name": "Nivriti Choudhury",
+        "key": "nivriti choudhury",
+        "college": "Christ University (Yeshwanthpur Campus)"
+      },
+      {
+        "name": "P manoj reddy",
+        "key": "p manoj reddy",
+        "college": "Alliance University"
+      },
+      {
+        "name": "Prithwiraj Saha",
+        "key": "prithwiraj saha",
+        "college": "Alliance University"
+      },
+      {
+        "name": "Rajica J",
+        "key": "rajica j",
+        "college": "Jyoti Nivas College (Autonomous)"
+      },
+      {
+        "name": "Rajica.j",
+        "key": "rajica.j",
+        "college": "Jyoti Nivas College (Autonomous)"
+      },
+      {
+        "name": "Ramneet Kaur",
+        "key": "ramneet kaur",
+        "college": "Christ University (BYC)"
+      },
+      {
+        "name": "RAMNEET KAUR",
+        "key": "ramneet kaur",
+        "college": "Christ University"
+      },
+      {
+        "name": "Ravi Kumawat H",
+        "key": "ravi kumawat h",
+        "college": "St. Claret College"
+      },
+      {
+        "name": "Ritvik Aryan D G",
+        "key": "ritvik aryan d g",
+        "college": "Alliance University"
+      },
+      {
+        "name": "Ritvik Aryan DG",
+        "key": "ritvik aryan dg",
+        "college": "Alliance University"
+      },
+      {
+        "name": "Rohit lamani",
+        "key": "rohit lamani",
+        "college": "Alliance University"
+      },
+      {
+        "name": "Rohit Lamani",
+        "key": "rohit lamani",
+        "college": "Alliance University"
+      },
+      {
+        "name": "Sagal Virdi",
+        "key": "sagal virdi",
+        "college": "Christ University (Yeshwanthpur Campus)"
+      },
+      {
+        "name": "Sanjay BR",
+        "key": "sanjay br",
+        "college": "Alliance University"
+      },
+      {
+        "name": "Satyam Gupta",
+        "key": "satyam gupta",
+        "college": "Alliance University"
+      },
+      {
+        "name": "Saurabh Sahani",
+        "key": "saurabh sahani",
+        "college": "St. Claret College"
+      },
+      {
+        "name": "shafaath",
+        "key": "shafaath",
+        "college": "Alliance University"
+      },
+      {
+        "name": "Shreya Thomas",
+        "key": "shreya thomas",
+        "college": "Christ University (Yeshwanthpur Campus)"
+      },
+      {
+        "name": "Shruthi S",
+        "key": "shruthi s",
+        "college": "Alliance University"
+      },
+      {
+        "name": "Shruthi.S",
+        "key": "shruthi.s",
+        "college": "Alliance University"
+      },
+      {
+        "name": "Sinchana B M",
+        "key": "sinchana b m",
+        "college": "Christ University (Yeshwanthpur Campus)"
+      },
+      {
+        "name": "Sohini Dey",
+        "key": "sohini dey",
+        "college": "Alliance University"
+      },
+      {
+        "name": "Sowmiya A",
+        "key": "sowmiya a",
+        "college": "Jyoti Nivas College (Autonomous)"
+      },
+      {
+        "name": "Sujal",
+        "key": "sujal",
+        "college": "Alliance University"
+      },
+      {
+        "name": "Sujal maity",
+        "key": "sujal maity",
+        "college": "Alliance University"
+      },
+      {
+        "name": "Tamanna Anand",
+        "key": "tamanna anand",
+        "college": "Alliance University"
+      },
+      {
+        "name": "TAMMANA ANAND",
+        "key": "tammana anand",
+        "college": "Alliance University"
+      },
+      {
+        "name": "Tathya Desai",
+        "key": "tathya desai",
+        "college": "Christ University (Yeshwanthpur Campus)"
+      },
+      {
+        "name": "Tejas",
+        "key": "tejas",
+        "college": "Christ University (Yeshwanthpur Campus)"
+      },
+      {
+        "name": "TENNETI ADITYA BHAVYA HAMSINI",
+        "key": "tenneti aditya bhavya hamsini",
+        "college": "Alliance University"
+      },
+      {
+        "name": "Vignesh K",
+        "key": "vignesh k",
+        "college": "Alliance University"
+      },
+      {
+        "name": "Vishnu .M",
+        "key": "vishnu .m",
+        "college": "Alliance University"
+      },
+      {
+        "name": "Vishnu M",
+        "key": "vishnu m",
+        "college": "Alliance University"
+      }
+    ],
+    "Vertex": [
+      {
+        "name": "Abhedeya Garg",
+        "key": "abhedeya garg",
+        "college": "Christ University"
+      },
+      {
+        "name": "Anavadya Raj",
+        "key": "anavadya raj",
+        "college": "Christ University (Yeshwanthpur Campus)"
+      },
+      {
+        "name": "Anavadya Raj",
+        "key": "anavadya raj",
+        "college": "Christ University"
+      },
+      {
+        "name": "Haricharan Ravi",
+        "key": "haricharan ravi",
+        "college": "Christ University (Yeshwanthpur Campus)"
+      },
+      {
+        "name": "Kabish Barua",
+        "key": "kabish barua",
+        "college": "Alliance University"
+      },
+      {
+        "name": "Khathija syed",
+        "key": "khathija syed",
+        "college": "Kristu Jayanti (Deemed to be) University"
+      },
+      {
+        "name": "Nithin B Sebastian",
+        "key": "nithin b sebastian",
+        "college": "Christ University (Yeshwanthpur Campus)"
+      },
+      {
+        "name": "Nithish Kiran Maniam",
+        "key": "nithish kiran maniam",
+        "college": "Christ University (Yeshwanthpur Campus)"
+      },
+      {
+        "name": "Riwo Thendup Sherpa",
+        "key": "riwo thendup sherpa",
+        "college": "Alliance University"
+      },
+      {
+        "name": "Satvik porwal",
+        "key": "satvik porwal",
+        "college": "Kristu Jayanti (Deemed to be) University"
+      },
+      {
+        "name": "Shastra Shri",
+        "key": "shastra shri",
+        "college": "Christ University (Yeshwanthpur Campus)"
+      },
+      {
+        "name": "Shastra Shri",
+        "key": "shastra shri",
+        "college": "Christ University"
+      },
+      {
+        "name": "Shivankar Sharma",
+        "key": "shivankar sharma",
+        "college": "Christ University"
+      },
+      {
+        "name": "Tanay Agrawal",
+        "key": "tanay agrawal",
+        "college": "Christ University (Yeshwanthpur Campus)"
+      },
+      {
+        "name": "Thanishritha",
+        "key": "thanishritha",
+        "college": "Alliance University"
+      },
+      {
+        "name": "Vamsidhar",
+        "key": "vamsidhar",
+        "college": "Alliance University"
+      }
+    ],
+    "Math Minister": [
+      {
+        "name": "Abhijith",
+        "key": "abhijith",
+        "college": "Alliance University"
+      },
+      {
+        "name": "Anant Krishna gajria",
+        "key": "anant krishna gajria",
+        "college": "Alliance University"
+      },
+      {
+        "name": "Anant Krishna Gajria",
+        "key": "anant krishna gajria",
+        "college": "Alliance University"
+      },
+      {
+        "name": "Chishow Pfokreni",
+        "key": "chishow pfokreni",
+        "college": "Kristu Jayanti (Deemed to be) University"
+      },
+      {
+        "name": "Ishita GS",
+        "key": "ishita gs",
+        "college": "Alliance University"
+      },
+      {
+        "name": "Jackson Tom",
+        "key": "jackson tom",
+        "college": "Kristu Jayanti (Deemed to be) University"
+      },
+      {
+        "name": "Lakshitha",
+        "key": "lakshitha",
+        "college": "Kristu Jayanti (Deemed to be) University"
+      },
+      {
+        "name": "Lakshitha S",
+        "key": "lakshitha s",
+        "college": "Kristu Jayanti (Deemed to be) University"
+      },
+      {
+        "name": "Luqmaan Khan",
+        "key": "luqmaan khan",
+        "college": "Alliance University"
+      },
+      {
+        "name": "Navtej Singh",
+        "key": "navtej singh",
+        "college": "Alliance University"
+      },
+      {
+        "name": "Parth",
+        "key": "parth",
+        "college": "Alliance University"
+      },
+      {
+        "name": "Thipshika",
+        "key": "thipshika",
+        "college": "Kristu Jayanti (Deemed to be) University"
+      },
+      {
+        "name": "Thipshika k",
+        "key": "thipshika k",
+        "college": "Kristu Jayanti (Deemed to be) University"
+      },
+      {
+        "name": "Venya Sri Talluri",
+        "key": "venya sri talluri",
+        "college": "Alliance University"
+      },
+      {
+        "name": "Vihaan dogra",
+        "key": "vihaan dogra",
+        "college": "Alliance University"
+      },
+      {
+        "name": "Vihaan Dogra",
+        "key": "vihaan dogra",
+        "college": "Alliance University"
+      }
+    ]
+  }
+}

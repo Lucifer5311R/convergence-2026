@@ -1,0 +1,38 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+.vercel
+
+# PRIVATE DATA — never push student personal info.
+# Only the scores template is safe to track.
+files/*
+
+# Admin stores: results & event edits are tracked (GitHub-sync),
+# but anything containing personal contact info stays local.
+data-admin/*
+!data-admin/scores.csv
+!data-admin/events-overrides.json
+!data-admin/attendance.json
+!data-admin/onspot-public.json
