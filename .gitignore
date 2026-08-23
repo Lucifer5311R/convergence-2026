@@ -25,6 +25,9 @@ dist-ssr
 
 .vercel
 
+# Internal session notes (passwords, workflow details)
+SESSION-HANDOVER.md
+
 # PRIVATE DATA — never push student personal info.
 # Only the scores template is safe to track.
 files/*

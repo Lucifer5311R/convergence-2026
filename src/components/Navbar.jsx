@@ -10,6 +10,7 @@ const NAV_ITEMS = [
   { label: 'Events', href: '#events' },
   { label: 'Schedule', href: '#schedule' },
   { label: 'Legacy', href: '#legacy' },
+  { label: 'Results', href: '#/results' },
   { label: 'Teams', href: '#participants' },
   { label: 'Committee', href: '#committee' },
   { label: 'Gallery', href: '#gallery' },
@@ -45,6 +46,11 @@ export default function Navbar({ onRegisterClick }) {
   const handleNavClick = (e, href) => {
     e.preventDefault();
     setMobileOpen(false);
+    // Standalone screens use hash routes
+    if (href.startsWith('#/')) {
+      window.location.hash = href;
+      return;
+    }
     const el = document.querySelector(href);
     if (el) {
       const offset = 72;

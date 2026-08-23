@@ -18,6 +18,7 @@ import EventPage from './components/EventPage';
 import WhyAttend from './components/WhyAttend';
 import HowItWorks from './components/HowItWorks';
 import Admin from './components/Admin';
+import Results from './components/Results';
 
 export default function App() {
   const [registerOpen, setRegisterOpen] = useState(false);
@@ -62,8 +63,10 @@ export default function App() {
   const eventMatch = hash.match(/^#\/event\/(\d+)/);
   const eventId = eventMatch ? eventMatch[1] : null;
   const isAdmin = hash === '#/admin';
+  const isResults = hash === '#/results' || hash === '#results';
 
   if (isAdmin) return <Admin />;
+  if (isResults) return <Results />;
 
   return (
     <>
@@ -82,6 +85,7 @@ export default function App() {
             <HowItWorks />
             <Schedule />
             <Legacy />
+            <Results />
             <Participants />
             <Committee />
             <Gallery />
