@@ -19,7 +19,22 @@ function Login({ onAuth }) {
     setError('');
     const input = password.trim();
 
-    // Check common PINs / Master Passwords
+    // 1. If local server API is available, try server login first
+    try {
+      const body = await fetchJson('/api/login', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ password: input }),
+      });
+      sessionStorage.setItem(TOKEN_KEY, body.token);
+      onAuth();
+      setBusy(false);
+      return;
+    } catch {
+      // Local server API was not available or password didn't match local server
+    }
+
+    // 2. Check PINs for cloud / remote mode
     const VALID_PINS = ['convergence26', '2026', 'admin', 'admin2026'];
     if (VALID_PINS.includes(input.toLowerCase())) {
       sessionStorage.setItem(TOKEN_KEY, 'pin_auth_ok');
@@ -28,7 +43,7 @@ function Login({ onAuth }) {
       return;
     }
 
-    // If user pasted a GitHub token (starts with github_pat_ or ghp_)
+    // 3. If user pasted a GitHub token
     if (input.startsWith('github_pat_') || input.startsWith('ghp_')) {
       const cfg = getGhCfg();
       saveGhCfg({ ...cfg, token: input });
@@ -38,32 +53,8 @@ function Login({ onAuth }) {
       return;
     }
 
-    try {
-      // Local server API login
-      const body = await fetchJson('/api/login', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ password: input }),
-      });
-      sessionStorage.setItem(TOKEN_KEY, body.token);
-      onAuth();
-    } catch {
-      // Cloud mode: test saved GitHub token if available
-      try {
-        const cfg = getGhCfg();
-        if (cfg.token) {
-          await ghTest();
-          sessionStorage.setItem(TOKEN_KEY, 'gh_test_ok');
-          onAuth();
-        } else {
-          setError('Incorrect PIN or password (try "convergence26" or "2026")');
-        }
-      } catch (err2) {
-        setError(err2.message || 'Incorrect PIN or password');
-      }
-    } finally {
-      setBusy(false);
-    }
+    setError('Incorrect PIN or password (try "convergence26" or "2026")');
+    setBusy(false);
   };
 
   return (
@@ -180,13 +171,17 @@ export default function Admin() {
     getApiMode().then((m) => { setApiMode(m); if (m === 'remote') setShowGh(true); });
   }, []);
 
-  // Re-validate stored token on mount (handles password changes).
-  // On Vercel (remote mode) the GitHub token IS the credential.
+  // Re-validate stored token on mount
   useEffect(() => {
     if (!authed) return;
     getApiMode().then((m) => {
       setApiMode(m);
-      if (m === 'remote') { setTokenValid(true); setShowGh(true); return; }
+      const tokenVal = sessionStorage.getItem(TOKEN_KEY);
+      if (m === 'remote' || tokenVal === 'pin_auth_ok' || tokenVal === 'gh_token_ok' || tokenVal === 'gh_test_ok') {
+        setTokenValid(true);
+        if (m === 'remote') setShowGh(true);
+        return;
+      }
       fetchJson('/api/admin/registrations', { headers: apiHeaders() })
         .then(() => setTokenValid(true))
         .catch(() => {
